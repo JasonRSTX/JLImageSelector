@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'JLImageSelector_Example' do
+  pod 'JLImageSelector', :path => '../'
+
+  target 'JLImageSelector_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
